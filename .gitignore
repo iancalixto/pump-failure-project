@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Virtual Environment (managed by uv)
+.venv/
+
+# Data governance - NEVER commit raw datasets or interim exports
+data/raw/*
+data/interim/*
+!data/**/.gitkeep
+data/*.csv
+*.csv
+*.parquet
+project_data/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS / OS artifacts
+.DS_Store
+Thumbs.db
+
+# Test & Lint caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
