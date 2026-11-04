@@ -1,4 +1,4 @@
-.PHONY: install test kernel clean
+.PHONY: install test kernel clean pdf
 
 install:
 	pip install -e ".[dev]"
@@ -8,6 +8,9 @@ kernel:
 
 test:
 	python -m pytest -q
+
+pdf:
+	typst compile docs/DEFENSE_AND_STUDY_GUIDE.typ docs/DEFENSE_AND_STUDY_GUIDE.pdf
 
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +

@@ -19,6 +19,11 @@ data/*.csv
 *.parquet
 project_data/
 
+# Local personal study guide (Portuguese, local only - never pushed to GitHub)
+docs/DEFENSE_AND_STUDY_GUIDE.*
+*.typ
+
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
