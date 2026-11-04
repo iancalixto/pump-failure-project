@@ -2,7 +2,7 @@ id,role,phase,task,done_when,status
 DE-01,DE,setup,Scaffold,make test passes,done
 DE-02,DE/PM,setup,Template de PR docs backlog,template appears in PR,done
 DE-03,DE,0,load_raw() in src/pumpfail/io.py + shape test,test green: 10249x30,done
-DE-04,DE,0,Audit: types ranges duplicates missing patterns,findings table + D-xxx,todo
+DE-04,DE,0,Audit: types ranges duplicates missing patterns,findings table + D-xxx,done
 DE-05,DE,0,clean() in src/pumpfail/clean.py + tests; saves interim,tests cover each clean rule,todo
 DE-06,DE/DS,0,Feature governance (docs/GOVERNANCE.md + src/pumpfail/features.py),all columns classified leak explained,todo
 DS-01,DS,0,Describe imbalance,tables and plots + interpretation paragraph,todo
