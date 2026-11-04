@@ -22,6 +22,7 @@ project_data/
 # Local personal study guide (Portuguese, local only - never pushed to GitHub)
 docs/DEFENSE_AND_STUDY_GUIDE.*
 *.typ
+!docs/STRATEGY_PRESENTATION_SLIDES.typ
 docs/*_walkthrough.html
 *.html
 
